@@ -35,7 +35,7 @@ Sebelum menjalankan project ini, pastikan Anda telah menginstal:
 **1. Unduh / Buka Direktori**
 Pastikan Anda berada di direktori project:
 ```bash
-cd "tugas1_2311103096_Akmal Rafly Dzunurain_S1SI-07-B"
+cd "apb_api_2311103096_Akmal Rafly Dzunurain_S1SI-07-B"
 ```
 
 **2. Instal seluruh dependensi (npm)**
