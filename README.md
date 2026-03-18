@@ -93,8 +93,8 @@ Gunakan Rest Client seperti **Postman**, **Insomnia**, atau ekstensi VSCode sepe
 *   **Payload:**
 ```json
 {
-  "name": "Budi Santoso",
-  "email": "budisantoso@example.com"
+  "name": "Orang Keren",
+  "email": "orangkeren@example.com"
 }
 ```
 
