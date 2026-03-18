@@ -64,7 +64,7 @@ Anda tidak perlu mengkonfigurasi tabel dan database secara manual menggunakan _p
 npm run db:migrate
 ```
 
-*(Script ini otomatis membaca kredensial di `.env`, mengecek dan membuat DB `tugas1`, tabel `users`, lalu memasukkan beberapa baris data `dummy` ke sana).*
+*(Script ini otomatis membaca kredensial di `.env`, mengecek dan membuat DB `apb_api_db`, tabel `users`, lalu memasukkan beberapa baris data `dummy` ke sana).*
 
 ---
 
