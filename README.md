@@ -17,8 +17,8 @@ Aplikasi memiliki endpoint berikut yang terfokus pada _resource_ `/users`:
 
 > **Catatan Struktur Data (MySQL):**
 > *   `id` : INT AUTO_INCREMENT [Primary Key]
-> *   `name` : VARCHAR(255)
-> *   `email` : VARCHAR(255) (UNIQUE)
+> *   `name` : VARCHAR(100)
+> *   `email` : VARCHAR(100) (UNIQUE)
 
 ---
 
