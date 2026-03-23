@@ -31,6 +31,18 @@ async function runMigrationAndSeed() {
     await connection.query(createTableQuery);
     console.log('Users table created/verified successfully.');
 
+    const createPostsTableQuery = `
+      CREATE TABLE IF NOT EXISTS posts (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        title VARCHAR(200) NOT NULL,
+        content TEXT NOT NULL,
+        user_id INT NOT NULL,
+        FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+      );
+    `;
+    await connection.query(createPostsTableQuery);
+    console.log('Posts table created/verified successfully.');
+
     console.log('Running seeder (inserting initial data)...');
     
     const [existingUsers] = await connection.query('SELECT COUNT(*) as count FROM users');
